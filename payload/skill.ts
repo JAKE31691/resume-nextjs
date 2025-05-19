@@ -4,52 +4,27 @@ const programmingLanguages: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
     {
-      title: 'C',
-      level: 3,
+      title: 'C++',
+      level: 2,
     },
     {
       title: 'Shell Scripting',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
       level: 2,
     },
     {
-      title: 'Golang',
+      title: 'JAVA',
       level: 2,
-    },
-    {
-      title: 'Rust',
-      level: 1,
     },
   ],
 };
 
 const kernelDevelopment: ISkill.Skill = {
   category: 'Kernel Development',
-  items: [
-    {
-      title: 'Kernel Programming',
-      level: 3,
-    },
-    {
-      title: 'GNU Debugger',
-      level: 3,
-    },
-    {
-      title: 'Memory Management',
-      level: 2,
-    },
-    {
-      title: 'System Call Interface',
-      level: 2,
-    },
-  ],
+  items: [],
 };
 
 const virtualization: ISkill.Skill = {
@@ -57,15 +32,7 @@ const virtualization: ISkill.Skill = {
   items: [
     {
       title: 'Docker',
-      level: 3,
-    },
-    {
-      title: 'KVM',
-      level: 3,
-    },
-    {
-      title: 'Xen',
-      level: 2,
+      level: 1,
     },
     {
       title: 'VirtualBox',
@@ -73,39 +40,14 @@ const virtualization: ISkill.Skill = {
     },
     {
       title: 'VMware ESXi',
-      level: 1,
+      level: 2,
     },
   ],
 };
 
 const automation: ISkill.Skill = {
   category: 'Automation',
-  items: [
-    {
-      title: 'Ansible',
-      level: 3,
-    },
-    {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
-    {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
-      level: 1,
-    },
-    {
-      title: 'Infrastructure as Code',
-      level: 1,
-    },
-  ],
+  items: [],
 };
 
 const networkSecurity: ISkill.Skill = {
@@ -142,22 +84,22 @@ const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Cube Solving',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: 'Jigsow Puzzle',
     },
     {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
+      title: 'Playing Saxophone',
     },
     {
       title: 'Joke Telling',
     },
     {
-      title: 'Duct Tape Crafting',
+      title: 'Playing Game',
+    },
+    {
+      title: 'Sing',
     },
   ],
 };

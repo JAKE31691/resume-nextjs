@@ -16,7 +16,7 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'tux@linux.org',
+      title: 'jake31691@gmail.com',
       link: 'mailto:tux@linux.org',
       icon: faEnvelope,
     },
@@ -26,7 +26,7 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/JAKE31691',
       icon: faGithub,
     },
     {
